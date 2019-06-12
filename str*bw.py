@@ -1,0 +1,10 @@
+z=list(input())
+y=len(z)
+x=y//2
+if(y%2==0):
+    z[x-1]='*'
+    z[x]='*'
+    print("".join(z))
+else:
+    z[x]='*'
+    print("".join(z))
