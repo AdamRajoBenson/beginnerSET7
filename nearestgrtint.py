@@ -1,4 +1,4 @@
-a=float(input())
-b=a//1
-b=int(b)
-print(b+1)
+p=float(input())
+q=p//1
+q=int(q)
+print(q+1)
